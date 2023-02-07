@@ -1,0 +1,12 @@
+[package]
+name = "cbridge"
+version = "0.1.1"
+
+[addresses]
+celer = "_"
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework", rev = "main" }
+AptosStdlib = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-stdlib", rev = "main" }
+#AptosFramework = { local = "../../aptos-core/aptos-move/framework/aptos-framework" }
+#AptosStdlib = { local = "../../aptos-core/aptos-move/framework/aptos-stdlib" }

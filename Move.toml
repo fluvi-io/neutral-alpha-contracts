@@ -1,0 +1,15 @@
+[package]
+name = "Examples"
+version = "0.0.0"
+
+[addresses]
+alpha = "_"
+deployer = "_"
+
+[dependencies]
+AptosFramework = {git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "72421d32d77f1877ded478e96f5b95914de1df91"}
+AptosStdlib = {git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-stdlib/", rev = "72421d32d77f1877ded478e96f5b95914de1df91"}
+PancakeSwap = {local = "lib/pancake-swap" }
+PancakeMasterchef = {local = "lib/pancake-masterchef" }
+PancakeOFT = {local = "lib/pancake-cake-oft" }
+cbridge = {local = "lib/cbridge" }
